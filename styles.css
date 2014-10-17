@@ -12,3 +12,26 @@ p {
 .paragraph2 {
     color: #35ff3f;
 }
+
+.one {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    border-radius:100px;
+    border: solid red 10px;
+}    
+
+.one:hover {
+    background-color: lime;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+     color: yellow;
+}
