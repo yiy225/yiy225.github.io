@@ -1,0 +1,14 @@
+body {
+    background-color: blue;
+    color: red;
+    font-size: 48px;
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+p {
+    margin: 100px;
+}
+.paragraph2 {
+    color: #35ff3f;
+}
