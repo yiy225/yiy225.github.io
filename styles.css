@@ -21,7 +21,6 @@ p {
     bottom: 20px;
     right: 100px;
     border-radius:100px;
-    border: solid red 10px;
 }    
 
 .one:hover {
