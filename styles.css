@@ -1,6 +1,5 @@
 body {
-    background-color: blue;
-    color: red;
+    background-color: gray;
     font-size: 48px;
     font-family: Helvetica, Arial, sans-serif;
     text-align: right;
@@ -9,28 +8,11 @@ body {
 p {
     margin: 100px;
 }
-.paragraph2 {
-    color: #35ff3f;
-}
-
-.one {
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    position: fixed;
-    bottom: 20px;
-    right: 100px;
-    border-radius:100px;
-}    
-
-.one:hover {
-    background-color: lime;
-}
 
 a:link {
-    color: white;
+    color: black;
 }
 
 a:hover {
-     color: yellow;
+     color: white;
 }
