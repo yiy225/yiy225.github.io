@@ -2,34 +2,9 @@ body {
     background-image:url(indexbg.png);
     background-repeat: repeat;
     color: #086A87;
-    font-size: 30px;
+    font-size: 26px;
 }
 
-.canvas {
-    width: 300px;
-    height: 600px;
-    background-color: black;
-    position: relative;
-}
-
-.box {
-    width: 20px;
-    height: 100px;
-    background-color: yellow;
-    position: absolute;
-    top: 40px;
-    right: 20px;
-}
-
-.circle {
-    width: 100px;
-    height: 100px;
-    border-radius: 100%;
-    background-color: red;
-    position: absolute;
-    bottom: 40px;
-    left: 30px;
-}
 
 .sprite {
     width: 200px;
@@ -52,6 +27,11 @@ body {
 
 .wrapper {
     width: 400px;
+    background-color：white；
+    text-align:center;
+    margin-left:auto; 
+    margin-right:auto;
+    
 }
 
 .column {
@@ -62,9 +42,6 @@ body {
     overflow: auto;
 }
 
-.clear {
-    clear: both;
-}
 
 .one {
     width: 200px;
