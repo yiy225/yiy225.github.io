@@ -66,14 +66,14 @@ body {
 }
 
 .one {
-    width: 50px;
-    height: 50px;
+    width: 200px;
+    height: 200px;
     background-color: #BCF5A9;
     position: fixed;
     bottom: 20px;
     right: 100px;
     border-radius: 100%;
-    border: solid #086A87 1px;
+    border: solid #086A87 5px;
     cursor: pointer;
 }
 
