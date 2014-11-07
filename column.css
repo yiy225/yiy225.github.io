@@ -1,6 +1,7 @@
 body {
-    background-color: #D8F6CE;
-    color: #298A08;
+    background-image:url(indexbg.png);
+    background-repeat: repeat;
+    color: #005757;
     font-size: 30px;
 }
 
