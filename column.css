@@ -15,6 +15,7 @@ body {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
+    
 }
 
 .sprite:hover {
@@ -64,5 +65,5 @@ body {
 .catword{
     position:fixed;
     bottom: 150px;
-    right: 300px;
+    right: 293px;
 }
