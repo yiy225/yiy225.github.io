@@ -83,3 +83,9 @@ body {
 .one:hover {
     background-position:250px;
 }
+
+.catword{
+    position:fixed;
+    bottom: 150px;
+    right: 300px;
+}
