@@ -17,26 +17,6 @@ p {
 
 }
 
-.sprite {
-    width: 200px;
-    height: 200px;
-    background-image: url(sprite.jpg);
-    background-repeat: no-repeat;
-    display: block;
-    text-indent: 100%;
-    white-space: nowrap;
-    overflow: hidden;
-    float:left
-    
-}
-
-.sprite:hover {
-    background-position: -200px 0;
-}
-
-.sprite:active {
-    background-position: -400px 0;
-}
 
 .seal {
    width: 80px;
