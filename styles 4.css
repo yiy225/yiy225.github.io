@@ -8,3 +8,27 @@ body {
 p {
     margin: 100px;
 }
+
+.one {
+    width: 150px;
+    height: 150px;
+    background-image:url(cat.jpg);
+    background-repeat: no-repeat;
+    background-position: 68% 1%; 
+    position: fixed;
+    bottom: 20px;
+    right: 100px;
+    border-radius: 100%;
+    border: solid #086A87 2px;
+    cursor: pointer;
+}
+
+.one:hover {
+    background-position:250px;
+}
+
+.catword{
+    position:fixed;
+    bottom: 200px;
+    right: 250px;
+}
