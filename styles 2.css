@@ -1,5 +1,6 @@
 body {
-    background-color: #77DDFF;
+    background-image: url(geometry.jpg);
+    background-repeat: repeat;
     font-size: 36px;
     font-family: Helvetica, Arial, sans-serif;
     text-align: right;
