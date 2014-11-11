@@ -2,7 +2,7 @@ body {
     background-image: url(wood.png);
     background-repeat: repeat;
     color: black;
-    font-family: "Courier New", Georgia, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     text-align: center;
     padding: 0px;

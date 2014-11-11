@@ -1,13 +1,23 @@
 body {
     background-image: url(geometry.jpg);
     background-repeat: repeat;
-    font-size: 36px;
-    font-family: Helvetica, Arial, sans-serif;
-    text-align: right;
+    font-size: 150px;
+    font-family: Impact, "Charcoal", sans-serif;
+    text-align: center;
 }
 
-p {
-    margin: 100px;
+
+.div1{
+   color: #CCEEFF;
+   width: 380px;
+   line-height: 130px;
+   height: 800px;
+   margin: 0px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   margin-left: auto; 
+   margin-right: auto;
+    
 }
 
 .seal {
