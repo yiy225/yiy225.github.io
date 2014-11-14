@@ -8,7 +8,7 @@ body {
 }
 
 .div1 {
-  width: 600px;
+  width: 650px;
   height: 50px;
   position: relative;
   text-align: center;
@@ -19,7 +19,7 @@ body {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove1 {
   0% {background-color: #CCFFBD; left:500px; top:300px;}
-  25% {background-color: #C7BDFF; left:1000px; top:400px;}
+  25% {background-color: #C7BDFF; left:000px; top:400px;}
   50% {background-color: #FFBDC2; left:200px; top:700px;}
   75% {background-color: #BDD6FF; left:800px; top:100px;}
   100% {background-color: #FFEDBD; left:600px; top:900px;}
@@ -28,14 +28,14 @@ body {
 /* Standard syntax */
 @keyframes mymove1 {
   0% {background-color: #CCFFBD; left:500px; top:300px;}
-  25% {background-color: #C7BDFF; left:1000px; top:400px;}
+  25% {background-color: #C7BDFF; left:000px; top:400px;}
   50% {background-color: #FFBDC2; left:200px; top:700px;}
   75% {background-color: #BDD6FF; left:800px; top:100px;}
   100% {background-color: #FFEDBD; left:600px; top:900px;}
 }
 
 .div2 {
-  width: 600px;
+  width: 650px;
   height: 50px;
   position: relative;
   text-align: center;
@@ -49,7 +49,7 @@ body {
   25% {background-color: #FFBDC2; left:500px; top:300px;}
   50% {background-color: #FFEDBD; left:000px; top:700px;}
   75% {background-color: #C7BDFF; left:600px; top:900px;}
-  100% {background-color: #CCFFBD; left:1000px; top:200px;}
+  100% {background-color: #CCFFBD; left:400px; top:200px;}
 }
 
 /* Standard syntax */
@@ -58,11 +58,11 @@ body {
   25% {background-color: #FFBDC2; left:500px; top:300px;}
   50% {background-color: #FFEDBD; left:000px; top:700px;}
   75% {background-color: #C7BDFF; left:600px; top:900px;}
-  100% {background-color: #CCFFBD; left:1000px; top:200px;}
+  100% {background-color: #CCFFBD; left:400px; top:200px;}
 }
 
 .div3 {
-  width: 600px;
+  width: 650px;
   height: 50px;
   position: relative;
   text-align: center;
@@ -75,7 +75,7 @@ body {
   0% {background-color: #C7BDFF; left:200px; top:500px;}
   25% {background-color: #CCFFBD; left:100px; top:600px;}
   50% {background-color: #BDD6FF; left:800px; top:300px;}
-  75% {background-color: #FFBDC2; left:1000px; top:400px;}
+  75% {background-color: #FFBDC2; left:000px; top:400px;}
   100% {background-color: #FFEDBD; left:700px; top:900px;}
 }
 
@@ -84,7 +84,7 @@ body {
   0% {background-color: #C7BDFF; left:200px; top:500px;}
   25% {background-color: #CCFFBD; left:100px; top:600px;}
   50% {background-color: #BDD6FF; left:800px; top:300px;}
-  75% {background-color: #FFBDC2; left:1000px; top:400px;}
+  75% {background-color: #FFBDC2; left:000px; top:400px;}
   100% {background-color: #FFEDBD; left:700px; top:900px;}
 }
 
