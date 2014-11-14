@@ -12,31 +12,85 @@ body {
   height: 50px;
   position: relative;
   text-align: center;
-  -webkit-animation: mymove 15s linear 0s infinite alternate; /* Chrome, Safari, Opera */
+  -webkit-animation: mymove1 15s linear 0s infinite alternate; /* Chrome, Safari, Opera */
   animation: mymove 15s linear 0s infinite alternate;
 }
 
 /* Chrome, Safari, Opera */
-@-webkit-keyframes mymove {
-  0% {background-color: #CCFFBD; left:0px; top:0px;}
-  25% {background-color: #C7BDFF; left:400px; top:0px;}
-  50% {background-color: #FFBDC2; left:400px; top:400px;}
-  75% {background-color: #BDD6FF; left:0px; top:400px;}
-  100% {background-color: #FFEDBD; left:0px; top:0px;}
+@-webkit-keyframes mymove1 {
+  0% {background-color: #CCFFBD; left:500px; top:300px;}
+  25% {background-color: #C7BDFF; left:1000px; top:400px;}
+  50% {background-color: #FFBDC2; left:200px; top:700px;}
+  75% {background-color: #BDD6FF; left:800px; top:100px;}
+  100% {background-color: #FFEDBD; left:600px; top:900px;}
 }
 
 /* Standard syntax */
-@keyframes mymove {
-  0% {background-color: #CCFFBD; left:0px; top:0px;}
-  25% {background-color: #C7BDFF; left:400px; top:0px;}
-  50% {background-color: #FFBDC2; left:400px; top:400px;}
-  75% {background-color: #BDD6FF; left:0px; top:400px;}
-  100% {background-color: #FFEDBD; left:0px; top:0px;}
+@keyframes mymove1 {
+  0% {background-color: #CCFFBD; left:500px; top:300px;}
+  25% {background-color: #C7BDFF; left:1000px; top:400px;}
+  50% {background-color: #FFBDC2; left:200px; top:700px;}
+  75% {background-color: #BDD6FF; left:800px; top:100px;}
+  100% {background-color: #FFEDBD; left:600px; top:900px;}
 }
 
-.div2{
-    width: 500px;
-    height: 500px;
+.div2 {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: mymove2 8s linear 0s infinite alternate; /* Chrome, Safari, Opera */
+  animation: mymove 8s linear 0s infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove2 {
+  0% {background-color: #BDD6FF; left:800px; top:100px;}
+  25% {background-color: #FFBDC2; left:500px; top:300px;}
+  50% {background-color: #FFEDBD; left:000px; top:700px;}
+  75% {background-color: #C7BDFF; left:600px; top:900px;}
+  100% {background-color: #CCFFBD; left:1000px; top:200px;}
+}
+
+/* Standard syntax */
+@keyframes mymove2 {
+  0% {background-color: #BDD6FF; left:800px; top:100px;}
+  25% {background-color: #FFBDC2; left:500px; top:300px;}
+  50% {background-color: #FFEDBD; left:000px; top:700px;}
+  75% {background-color: #C7BDFF; left:600px; top:900px;}
+  100% {background-color: #CCFFBD; left:1000px; top:200px;}
+}
+
+.div3 {
+  width: 600px;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  -webkit-animation: mymove3 15s linear 0s infinite alternate; /* Chrome, Safari, Opera */
+  animation: mymove 15s linear 0s infinite alternate;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove3 {
+  0% {background-color: #C7BDFF; left:200px; top:500px;}
+  25% {background-color: #CCFFBD; left:100px; top:600px;}
+  50% {background-color: #BDD6FF; left:800px; top:300px;}
+  75% {background-color: #FFBDC2; left:1000px; top:400px;}
+  100% {background-color: #FFEDBD; left:700px; top:900px;}
+}
+
+/* Standard syntax */
+@keyframes mymove3 {
+  0% {background-color: #C7BDFF; left:200px; top:500px;}
+  25% {background-color: #CCFFBD; left:100px; top:600px;}
+  50% {background-color: #BDD6FF; left:800px; top:300px;}
+  75% {background-color: #FFBDC2; left:1000px; top:400px;}
+  100% {background-color: #FFEDBD; left:700px; top:900px;}
+}
+
+.div4{
+    width: 600px;
+    height: 600px;
 }
 
 .seal {
