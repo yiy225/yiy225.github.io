@@ -50,8 +50,9 @@ body {
 }
 
 .div2{
+   font-size: 100px;
    width: 500px;
-   height: 700px;
+   height: 600px;
    padding-top: 200px;
    margin-left: auto; 
    margin-right: auto;
