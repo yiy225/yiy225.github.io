@@ -3,7 +3,7 @@ body {
     background-repeat: repeat;
     color: #FF618B;
     font-size: 36px;
-    font-family: 'Bookman Old Style', serif;
+    font-family: ‘Arial Black’, Gadget, sans-serif;
     text-align: center;
 }
 
@@ -49,10 +49,10 @@ body {
     transform-origin :100% 100%;
 }
 
-div2{
-   width: 300px;
-   height: 1000px;
-   padding-top: 100px;
+.div2{
+   width: 500px;
+   height: 700px;
+   padding-top: 200px;
    margin-left: auto; 
    margin-right: auto;
 }
