@@ -3,14 +3,15 @@ body {
     background-repeat: repeat;
     font-size: 36px;
     color: 	#3D7878;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Verdana, Geneva, sans-serif;
     text-align: center;
 }
 
 .div1 {
-  width: 650px;
-  height: 100px;
+  width: 800px;
+  height: 50px;
   position: relative;
+  text-align: center;
   -webkit-animation: mymove 15s linear 0s infinite alternate; /* Chrome, Safari, Opera */
   animation: mymove 15s linear 0s infinite alternate;
 }
@@ -18,24 +19,24 @@ body {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes mymove {
   0% {left:0px; top:0px;}
-  25% {left:500px; top:0px;}
-  50% {left:500px; top:500px;}
-  75% {left:0px; top:500px;}
+  25% {left:400px; top:0px;}
+  50% {left:400px; top:400px;}
+  75% {left:0px; top:400px;}
   100% {left:0px; top:0px;}
 }
 
 /* Standard syntax */
 @keyframes mymove {
   0% {left:0px; top:0px;}
-  25% {left:200px; top:0px;}
-  50% {left:200px; top:200px;}
-  75% {left:0px; top:200px;}
+  25% {left:400px; top:0px;}
+  50% {left:400px; top:400px;}
+  75% {left:0px; top:400px;}
   100% {left:0px; top:0px;}
 }
 
 .div2{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
 }
 
 .seal {
