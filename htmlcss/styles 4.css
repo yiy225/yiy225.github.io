@@ -1,5 +1,5 @@
 body {
-    background-image: url(geometry.jpg);
+    background-image: url(htmlcss/geometry.jpg);
     background-repeat: repeat;
     font-size: 150px;
     font-family: Impact, "Charcoal", sans-serif;
@@ -23,7 +23,7 @@ body {
 .seal {
    width: 80px;
    height: 80px;
-   background-image: url(seal.png);
+   background-image: url(htmlcss/seal.png);
    background-repeat: no-repeat;
    display: block;
    text-indent: 100%;
