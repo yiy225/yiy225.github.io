@@ -35,7 +35,6 @@ body {
     position: relative;
     margin-left:auto; 
     margin-right:auto;
-    text-align: center;
 }
 
 .c2{
@@ -44,7 +43,6 @@ body {
     margin-left:auto; 
     margin-right:auto;
     color: #FFEE99;
-    text-align: center;
 }
 
 .c3{
@@ -53,25 +51,24 @@ body {
     position: relative;
     margin-left:auto; 
     margin-right:auto;
-    text-align: center;
 }
 
 a:link {
-    color: red;
+    color: white;
     font-size: 20px;
 }
 
 a:hover {
-    color: red;
+    color: white;
     font-size: 20px;
 }
 
 a:active {
-	color: red;
+	color: white;
 	font-size: 20px;
 }
 
 a:visited {
-	color: red;
+	color: white;
 	font-size: 20px;
 }
