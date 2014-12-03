@@ -18,13 +18,14 @@ body {
 }
     
 .div2 {
+    background-image: url(ymm1.jpg);
     height: 600px;
     width: 800px;
     z-index: 100;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
     padding-left:50px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
