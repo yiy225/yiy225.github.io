@@ -25,7 +25,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    padding-left:50px;
     
 }
 
@@ -35,6 +34,7 @@ body {
     position: relative;
     margin-left:auto; 
     margin-right:auto;
+    padding-left:50px;
 }
 
 .c2{
@@ -43,6 +43,7 @@ body {
     margin-left:auto; 
     margin-right:auto;
     color: #FFEE99;
+    padding-left:50px;
 }
 
 .c3{
@@ -51,6 +52,7 @@ body {
     position: relative;
     margin-left:auto; 
     margin-right:auto;
+    padding-left:50px;
 }
 
 a:link {
