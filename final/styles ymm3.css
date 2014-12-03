@@ -37,8 +37,8 @@ body {
 }
 
 .mouse {
-   width: 180px;
-   height: 50px;
+   width: 90px;
+   height: 20px;
    background-image: url(mouse.jpg);
    background-repeat: no-repeat;
    display: block;
