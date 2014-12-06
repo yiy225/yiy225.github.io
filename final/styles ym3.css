@@ -18,7 +18,7 @@ body {
 }
     
 .div2 {
-    background-image: url(ym1.jpg);
+    background-image: url(ym3.jpg);
     height: 600px;
     width: 800px;
     z-index: 100;
@@ -42,7 +42,7 @@ body {
     position: relative;
     margin-left:auto; 
     margin-right:auto;
-    color: #FFF8DC;
+    color: #FFF8DC ;
     padding-left:50px;
 
 }

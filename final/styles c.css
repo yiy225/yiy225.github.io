@@ -1,9 +1,9 @@
 body {
     background-color: black;
+    font-size: 30px;
     font-family: Garamond, serif;
     text-align: center;
-    color: white;
-    font-size: 20px;
+    color: red;
 }
 
 
@@ -18,7 +18,7 @@ body {
 }
     
 .div2 {
-    background-image: url(ym1.jpg);
+    background-image: url(c.jpg);
     height: 600px;
     width: 800px;
     z-index: 100;
@@ -28,41 +28,41 @@ body {
     
 }
 
-.c1{
-    font-size: 40px;
-    color: white;
-    position: relative;
-    margin-left:auto; 
-    margin-right:auto;
-    padding-left:50px;
+.c {
+   background-color: white;
+   width: 40px;
+   height: 10px;
+   display: block;
+   white-space: nowrap;
+   overflow: hidden;
+   position: absolute;
+   margin-left: 300px; 
+   margin-top: 315px;
+
 }
 
-.c2{
-    font-size: 40px;
+
+.c1{
+    width: 300px;
+    height: 100px;
     position: relative;
     margin-left:auto; 
     margin-right:auto;
-    color: #FFF8DC;
-    padding-left:50px;
-
 }
 
 a:link {
-    color: white;
-    font-size: 20px;
+    color: black;
 }
 
 a:hover {
-    color: white;
-    font-size: 20px;
+    color: black;
 }
 
 a:active {
-	color: white;
-	font-size: 20px;
+   background-color: red;
+	color: black;
 }
 
 a:visited {
-	color: white;
-	font-size: 20px;
+	color: black;
 }
