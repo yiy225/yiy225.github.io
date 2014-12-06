@@ -35,8 +35,8 @@ body {
   height: 25px;
   position: relative;
   text-align: center;
-  -webkit-animation: mymove1 15s linear 0s infinite alternate; /* Chrome, Safari, Opera */
-  animation: mymove 15s linear 0s infinite alternate;
+  -webkit-animation: mymove1 14s linear 0s infinite alternate; /* Chrome, Safari, Opera */
+  animation: mymove 14s linear 0s infinite alternate;
 }
 
 /* Chrome, Safari, Opera */
