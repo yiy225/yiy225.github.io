@@ -1,6 +1,6 @@
 body {
     background-color: black;
-    font-size: 20px;
+    font-size: 40px;
     font-family: Garamond, serif;
     text-align: center;
     color: white;
@@ -18,13 +18,13 @@ body {
 }
     
 .div2 {
-    background-image: url(church.jpg);
+    background-image: url(ring.jpg);
     height: 600px;
     width: 800px;
     z-index: 100;
     margin-left: auto;
     margin-right: auto;
-    text-align: left;
+    text-align: center;
     
 }
 
@@ -33,26 +33,29 @@ body {
     margin-left:auto; 
     margin-right:auto;
     padding-left:50px;
-    font-size: 50px;
-    color: #CCDDFF;
 }
 
-a:link {
-    color: white;
-    font-size: 20px;
+.mouse {
+   width: 90px;
+   height: 20px;
+   background-image: url(mouse.jpg);
+   background-repeat: no-repeat;
+   display: block;
+   text-indent: 100%;
+   white-space: nowrap;
+   overflow: hidden;
+   position: relative;
+   text-align:center;
+   margin-left:auto; 
+   margin-right:auto;
 }
 
-a:hover {
-    color: white;
-    font-size: 20px;
+
+.mouse:hover {
+background-position: 0px 0;
 }
 
-a:active {
-	color: white;
-	font-size: 20px;
-}
 
-a:visited {
-	color: white;
-	font-size: 20px;
+.mouse:active {
+background-position: 0px 0;
 }
