@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    font-size: 30px;
+    font-family: Garamond, serif;
+    text-align: center;
+    color: red;
+}
+
+
+.div1 { 
+    margin: 0px auto;
+    width: 200px;
+    height: 50px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+.div2 {
+    background-image: url(c.jpg);
+    height: 600px;
+    width: 800px;
+    z-index: 100;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+}
+
+.c {
+   background-color: white;
+   width: 40px;
+   height: 10px;
+   display: block;
+   white-space: nowrap;
+   overflow: hidden;
+   position: absolute;
+   margin-left: 300px; 
+   margin-top: 315px;
+
+}
+
+
+.c1{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+   background-color: red;
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
