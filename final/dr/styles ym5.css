@@ -48,21 +48,21 @@ body {
 }
 
 a:link {
-    color: white;
+    color: #CCDDFF;
     font-size: 20px;
 }
 
 a:hover {
-    color: white;
+    color: #CCDDFF;
     font-size: 20px;
 }
 
 a:active {
-	color: white;
+	color: #CCDDFF;
 	font-size: 20px;
 }
 
 a:visited {
-	color: white;
+	color: #CCDDFF;
 	font-size: 20px;
 }
