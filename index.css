@@ -1,0 +1,81 @@
+body {
+    background-image: url(upfeathers.png);
+    background-repeat: repeat;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.div1 { 
+    width: 500px;
+    height: 50px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+    
+.div2 {
+    height: 850px;
+    width: 800px;
+    filter:alpha(Opacity=60);
+    -moz-opacity:0.5;
+    opacity: 0.5;
+    z-index: 100;
+    background-color: #ffffff;  
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    border-radius: 15%;
+    
+}
+
+.c1{
+    text-align: center;
+}
+
+.c2{
+    text-align: left;
+    padding-left: 430px;
+}
+
+.c3{
+    background-image: url(photo300x450.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    left: 400px;
+    top: 300px;
+}
+    
+    
+
+
+.div3{ 
+    margin: 0px auto;
+    width: 500px;
+    height: 50px ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
