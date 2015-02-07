@@ -1,7 +1,6 @@
 body {
     background-image: url(upfeathers.png);
-    background-repeat: repeat;
-    color: black;
+    color: #606060;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
     padding: 0px;
@@ -10,7 +9,7 @@ body {
 
 .div1 { 
     width: 500px;
-    height: 50px ;
+    height: 80px ;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -20,13 +19,9 @@ body {
 .div2 {
     height: 850px;
     width: 800px;
-    filter:alpha(Opacity=60);
-    -moz-opacity:0.5;
-    opacity: 0.5;
     z-index: 100;
     background-color: #ffffff;  
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding-top: 50px;
     border-radius: 15%;
     
@@ -38,33 +33,50 @@ body {
 
 .c2{
     text-align: left;
-    padding-left: 430px;
+    position: relative;
+    margin-left:500px; 
+    margin-right:auto;
+    margin-top: -450px;
+    
 }
 
-    
+.c3{
+    background-image: url(photo300x450.jpg);
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 450px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    margin-left:100px; 
+    margin-right:auto;
+}
 
 .div3{ 
     margin: 0px auto;
     width: 500px;
-    height: 50px ;
+    height: 80px ;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
+
+.div4{
     
+}
 
 a:link {
-    color: black;
+    color: #606060;
 }
 
 a:hover {
-    color: black;
+    color: #606060;
 }
 
 a:active {
-	color: black;
+	color: #606060;
 }
 
 a:visited {
-	color: black;
+	color: #606060;
 }
