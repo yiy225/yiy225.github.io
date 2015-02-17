@@ -1,0 +1,40 @@
+body{
+    background-image: url(images/background.png);
+    margin: 8px;
+    padding: 8px;
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+h2{
+    font-weight: bold;
+    color: #B24B10;
+    font-family: 'Lobster', cursive;
+}
+
+.ni1{
+    color: black;
+    
+}
+
+.ni2{
+    color: #FF7B2F;
+    
+}
+
+.ni3{
+    color: #B24B10;
+    
+}
+
+
+.wrapper{
+    width: 540px;
+    background: #fff;
+    margin: auto;
+    padding: 20px
+}
+
+#page {
+    
+}
