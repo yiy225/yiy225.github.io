@@ -1,0 +1,41 @@
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+.grid {
+    width: 960px;
+}
+
+.col8, .col4, .col2, .col3, .col1{
+    background: #00ff00;
+    height: 48px;
+    margin: 2px;
+    float: left;
+}
+
+.col8 {
+    width: 956px;
+}
+
+.col4 {
+    width: 476px;
+}
+
+.col2 {
+    width: 236px;
+}
+
+.col1 {
+    width: 116px;
+}
+    
+.col3 {
+    width: 356px;
+}
+
+.redrow .col4, .redrow .col2 {
+    background: #ff0000;
+}
+
+.clear {clear: both;}

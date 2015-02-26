@@ -1,0 +1,84 @@
+body {
+    background-color: #35375F;
+}
+
+.top{
+    height: 300px;
+}
+
+.intro{
+    background-color: #D4CCC0;
+    color: #35375F;
+    margin: auto;
+    max-width: 810px;
+    padding-bottom:100px;
+    border-radius: 5%;
+}
+
+.phone{
+    float: left;
+    background-image: url(iPhone6.png);
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 500px;
+    margin: 10%;
+    margin-top: 80px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+}
+
+.p1{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #D4CCC0;
+}
+
+.p2{
+    width: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:500;
+    font-size: 50px;
+    color: #D4CCC0;
+}
+
+.p3{
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    margin: 9%;
+}
+
+.foot{
+    color:#D4CCC0;
+    font-size: 5px;
+}
+
+.space1{
+    height: 65px;
+}
+
+.space2{
+    height:10px;
+}
+
+.download {
+   float: left;
+   width: 200px;
+   height: 70px;
+   background-image: url(download.png);
+   background-repeat: no-repeat;
+   display: block;
+}
+
+.download:hover {
+background-position: -200px 0;
+}
+
+
+.download:active {
+background-position: -200px 0;
+}
