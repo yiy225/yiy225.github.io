@@ -16,7 +16,7 @@ body {
 .grid{
     background-color: #D4CCC0;
     color: #35375F;
-    margin: 10%;
+    margin: auto;
     max-width: 800px;
     padding-bottom:100px;
     border-radius: 5%;
@@ -61,6 +61,8 @@ background-position: -245px 0;
 .foot{
     color:#D4CCC0;
     font-size: 10px;
+    position: relative;
+    margin: auto;
 }
 
 .space1{
