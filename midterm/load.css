@@ -6,11 +6,18 @@ body {
     height: 300px;
 }
 
-.intro{
+.logo{
+    width: 75px;
+    height: 75px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+}
+
+.grid{
     background-color: #D4CCC0;
     color: #35375F;
-    margin: auto;
-    max-width: 810px;
+    margin: 10%;
+    max-width: 800px;
     padding-bottom:100px;
     border-radius: 5%;
 }
@@ -23,33 +30,32 @@ body {
     height: 500px;
     margin: 10%;
     margin-top: 80px;
+    display: block;
 }
 
-.logo{
-    width: 75px;
-    height: 75px;
-    background-image: url(logo.png);
-    background-repeat: no-repeat;
+.phone:hover {
+background-position: -245px 0;
 }
 
 .p1{
+    font-family: 'Roboto', sans-serif;
     width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     color: #D4CCC0;
 }
 
 .p2{
+    font-family: 'Lobster', cursive;
     width: 300px;
-    font-family: Arial, Helvetica, sans-serif;
     font-weight:500;
     font-size: 50px;
     color: #D4CCC0;
 }
 
 .p3{
-    font-family: 'Trebuchet MS', Helvetica, sans-serif;
-    margin: 9%;
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    margin: 10%;
+    width: 80%;
 }
 
 .foot{
