@@ -1,5 +1,5 @@
 body {
-    background-color: #35375F;
+    background-color: #D4CCC0;
 }
 
 .top{
@@ -13,35 +13,11 @@ body {
     background-repeat: no-repeat;
 }
 
-.grid{
-    background-color: #D4CCC0;
-    color: #35375F;
-    margin: auto;
-    max-width: 800px;
-    padding-bottom:100px;
-    border-radius: 5%;
-}
-
-.phone{
-    float: left;
-    background-image: url(iPhone6.png);
-    background-repeat: no-repeat;
-    width: 245px;
-    height: 500px;
-    margin: 10%;
-    margin-top: 80px;
-    display: block;
-}
-
-.phone:hover {
-background-position: -245px 0;
-}
-
 .p1{
     font-family: 'Roboto', sans-serif;
     width: 300px;
     font-size: 30px;
-    color: #D4CCC0;
+    color: #35375F;
 }
 
 .p2{
@@ -49,37 +25,81 @@ background-position: -245px 0;
     width: 300px;
     font-weight:500;
     font-size: 50px;
-    color: #D4CCC0;
+    color: #35375F;
+}
+
+.intro{
+    color: #35375F;
+    margin: auto;
+    max-width: 800px;
+    height: auto;
+    padding-bottom:100px;
+}
+
+.phone{
+    background-image: url(iPhone6.png);
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.phone:hover {
+background-position: -245px 0;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    margin: auto;
+}
+
+.grid{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    width: 100%;
 }
 
 .p3{
-    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
-    margin: 10%;
-    width: 80%;
+    width: 23%;
+        float: left;
+        margin: 1%;
 }
 
-.foot{
-    color:#D4CCC0;
-    font-size: 10px;
-    position: relative;
-    margin: auto;
+.p4{
+    width:23%;
+        float: left;
+        margin: 1%;
 }
+
+.p5{
+    width: 23%;
+        float: left;
+        margin: 1%;
+}
+
+.p6{
+    width: 23%;
+        float: left;
+        margin: 1%;
+}
+
 
 .space1{
     height: 65px;
 }
 
 .space2{
-    height:10px;
+    height:50px;
 }
 
 .download {
-   float: left;
    width: 200px;
    height: 70px;
    background-image: url(download.png);
    background-repeat: no-repeat;
    display: block;
+    margin:auto;
 }
 
 .download:hover {
@@ -89,4 +109,10 @@ background-position: -200px 0;
 
 .download:active {
 background-position: -200px 0;
+}
+
+@media (max-width: 468px) {
+    .p3, .p4, .p5{
+        width: 98%;
+    }
 }

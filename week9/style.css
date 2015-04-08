@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    padding: 0px;
+    margin: 150px;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
+a:active {
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
