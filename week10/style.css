@@ -1,0 +1,21 @@
+#span1 { 
+    color: #0000FF;
+}
+
+.item {
+    background-color: #00ff00; 
+}
+
+.day {
+    font-size: 40px;
+}
+
+.awesome {
+    font-size: 100px;
+    color: #ff0000;
+}
+
+.sad {
+    font-size: 10px;
+    color: #666666;
+}

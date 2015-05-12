@@ -1,0 +1,161 @@
+body {
+    background-color: #D4CCC0;
+
+}
+
+.top{
+    height: 300px;
+}
+
+.logo{
+    width: 75px;
+    height: 75px;
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+}
+
+.p1{
+    font-family: 'Roboto', sans-serif;
+    width: 300px;
+    font-size: 30px;
+    color: #35375F;
+}
+
+.p2{
+    font-family: 'Lobster', cursive;
+    width: 300px;
+    font-weight:500;
+    font-size: 50px;
+    color: #35375F;
+}
+
+.intro{
+    color: #35375F;
+    margin: auto;
+    max-width: 800px;
+    height: auto;
+    padding-bottom:100px;
+}
+
+.phone{
+    background-image: url(iPhone6.png);
+    background-repeat: no-repeat;
+    width: 245px;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+.phone:hover {
+background-position: -245px 0;
+}
+
+.title{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    margin: auto;
+}
+
+.grid{
+    font-family: 'Trebuchet MS', 'Helvetica', sans-serif;
+    width: 100%;
+}
+
+.p3{
+    width: 23%;
+        float: left;
+        margin: 1%;
+}
+
+.p4{
+    width:23%;
+        float: left;
+        margin: 1%;
+}
+
+.p5{
+    width: 23%;
+        float: left;
+        margin: 1%;
+}
+
+.p6{
+    width: 23%;
+        float: left;
+        margin: 1%;
+}
+
+
+.space1{
+    height: 65px;
+}
+
+.space2{
+    height:50px;
+}
+
+.download {
+   width: 200px;
+   height: 70px;
+   background-image: url(download.png);
+   background-repeat: no-repeat;
+   display: block;
+    margin:auto;
+}
+
+.download:hover {
+background-position: -200px 0;
+}
+
+
+.download:active {
+background-position: -200px 0;
+}
+
+@media (max-width: 468px) {
+    .p3, .p4, .p5{
+        width: 98%;
+    }
+}
+
+
+@media(min-width:1200px){
+    .row{
+        margin-left:1%;
+    }
+
+    .row-fluid.span1{
+        width:710px
+    }
+    .span4{
+        width:214px
+    }
+}
+
+@media(max-width:468px){
+    body{
+        padding-right:1%;
+        padding-left:1%;
+    }
+
+    .row-fluid{
+        width:100%
+    }
+    .row-fluid [class*="span"]{
+        display:block;
+        float:none;
+        width:100%;
+        margin-left:0;
+        box-sizing:border-box
+            -webkit-box-sizing:border-box;
+            -moz-box-sizing:border-box;
+    }
+    .row-fluid .span1{
+        width:100%;
+            -webkit-box-sizing:border-box;
+        box-sizing:border-box;
+    }
+    .row-fluid [class*="offset"]:first-child{
+        margin-left:0
+    }  
+}
