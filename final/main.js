@@ -108,3 +108,26 @@ function getMatch ($el) {
  
   return isMatch;
 }
+
+
+
+//ajax//
+$(function() {
+    function requestFile(url){
+            $.ajax(
+                {
+                    url: url,
+                    cache: false,
+                    dataType:"json",
+                    success: function(data){
+                        $(".u-form-group button").html(data.login);
+                    }
+                }
+            );
+        }
+    $(".u-form-group button").click(function(){
+        requestFile("data.json");
+            }
+        )
+    
+    });
